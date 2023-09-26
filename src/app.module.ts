@@ -19,7 +19,7 @@ import { StudentModule } from './Student/Student.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://mohand800001:u7RRxaBSjh1bDjaG@cluster0.5gesuqe.mongodb.net/crud'
+      ''
       ),
       AuditoriomModule,
       BusModule,
